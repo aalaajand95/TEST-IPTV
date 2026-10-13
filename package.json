@@ -1,0 +1,14 @@
+{
+  "name": "souq-tv",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Arabic-first IPTV platform: live channels, Arabic & English movies, series and anime",
+  "workspaces": ["server", "web"],
+  "scripts": {
+    "dev": "npm run dev --workspace server & npm run dev --workspace web",
+    "build": "npm run build --workspace server && npm run build --workspace web",
+    "start": "npm run start --workspace server",
+    "test": "npm test --workspace server",
+    "typecheck": "npm run typecheck --workspace server && npm run typecheck --workspace web"
+  }
+}

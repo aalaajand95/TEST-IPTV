@@ -1,0 +1,23 @@
+#EXTM3U x-tvg-url="https://example.com/epg.xml.gz"
+#EXTINF:-1 tvg-id="AlJazeera.qa@SD" tvg-logo="https://example.com/aj.png" tvg-language="Arabic" group-title="News",Al Jazeera (1080p)
+https://example.com/aj/index.m3u8
+#EXTINF:-1 tvg-id="MBC1.ae" tvg-country="AE" group-title="General",MBC 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Test
+#EXTVLCOPT:http-referrer=https://mbc.example/
+https://example.com/mbc1.m3u8
+#EXTINF:-1 tvg-id="SpacetoonArabic.ae" group-title="Kids",سبيستون
+https://example.com/spacetoon.m3u8|User-Agent=Kodi%2F20
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-language="English" group-title="News, World",BBC News
+https://example.com/bbc.m3u8
+#EXTINF:-1 group-title="AR | أفلام",الرسالة (1976)
+http://provider.example/movie/user/pass/101.mkv
+#EXTINF:-1 group-title="EN | Movies",The Message (1976)
+http://provider.example/movie/user/pass/102.mp4
+#EXTINF:-1 group-title="AR | مسلسلات",باب الحارة S01 E02
+http://provider.example/series/user/pass/2002.mp4
+#EXTINF:-1 group-title="AR | مسلسلات",باب الحارة S01 E01
+http://provider.example/series/user/pass/2001.mp4
+#EXTINF:-1 group-title="Anime",Naruto S01E01
+http://provider.example/series/user/pass/3001.mkv
+#EXTINF:-1 tvg-id="AlJazeera.qa@SD" group-title="News",Al Jazeera duplicate URL
+https://example.com/aj/index.m3u8

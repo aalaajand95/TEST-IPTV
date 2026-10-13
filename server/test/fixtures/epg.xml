@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="AlJazeera.qa@SD"><display-name>Al Jazeera</display-name></channel>
+  <programme start="20261013180000 +0300" stop="20261013190000 +0300" channel="AlJazeera.qa@SD">
+    <title lang="en">News Hour</title>
+    <title lang="ar">حصاد اليوم</title>
+    <desc lang="ar">نشرة الأخبار</desc>
+  </programme>
+  <programme start="20261013190000 +0300" stop="20261013200000 +0300" channel="AlJazeera.qa@SD">
+    <title>Inside Story &amp; Analysis</title>
+  </programme>
+  <programme start="20261013190000 +0000" stop="20261013200000 +0000" channel="Other.xx">
+    <title>Ignored</title>
+  </programme>
+</tv>
